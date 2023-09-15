@@ -1,0 +1,32 @@
+#app    {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#app > h1   {
+    color: blueviolet;
+    margin-top: -5px;
+    margin-bottom: -5px;
+}
+
+#app > h2   {
+    align-self: flex-start;
+    margin-top: 100px;
+}
+
+#app > p   {
+    align-self: flex-start;
+    text-align: justify;
+    width: 512px;
+}
+
+#app .placeholder   {
+    color: #7C7C8A;
+    user-select: none;
+}
+
+#app .noselect    {
+    user-select: none;
+}
